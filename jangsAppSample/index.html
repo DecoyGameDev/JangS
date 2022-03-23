@@ -7,10 +7,11 @@
     <body>
       <div id="terminal"></div>
       <script>
-        var help = 'term.write';
-        var term = new Terminal();
-        term.open(document.getElementById('terminal'));
-        term.write('Welcome to JangS. You can type "help" to get started. Or use the documentation for you app.')
+        var jangs_write = write();
+        var jOPFILE = open();
+        var jterm = new Terminal();
+        jterm.jOPFILE(document.getElementById('terminal'));
+        jterm.jangs_write('Welcome to JangS. You can type "help" to get started. Or use the documentation for you app.')
       </script>
     </body>
   </html>
