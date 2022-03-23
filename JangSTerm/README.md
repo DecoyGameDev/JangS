@@ -10,7 +10,7 @@ If you do not use the default app, you can copy JangSTerm.js and refrence it in 
 # Setting up a terminal
 
 Use this to setup the terminal:
-`
+```
 <!doctype html>
   <html>
     <head>
@@ -26,7 +26,7 @@ Use this to setup the terminal:
       </script>
     </body>
   </html>
-`
+```
 
 This creates a new JangS terminal.
 
