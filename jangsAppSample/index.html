@@ -3,6 +3,23 @@
     <head>
       <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
       <script src="node_modules/xterm/lib/xterm.js"></script>
+      <style>
+        .lovejang {
+        border-bottom: 50px solid yellow;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 125px;}
+      </style>
+      <script>
+        anime({
+  targets: '.lovejang',
+  translateX: 250,
+  loop: true,
+  direction: 'alternate',
+  duration: 3000
+});
+      </script>
     </head>
     <body>
       <div id="terminal"></div>
@@ -11,5 +28,7 @@
         term.open(document.getElementById('terminal'));
         term.write('You create a JangS app! Awesome! To get started see documentation, here are some examples of what JangS can do below.')
       </script>
+
+      <div class="lovejang"></div>
     </body>
   </html>
