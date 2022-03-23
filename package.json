@@ -3,7 +3,7 @@
     "version": "1.0.00",
     "private": false,
     "scripts": {
-      "start": "node jangs"
+      "start": "npm start"
     },
     "dependencies": {
       "xterm": "4.18.0"
