@@ -11,7 +11,6 @@ If you do not use the default app, you can copy JangSTerm.js and refrence it in 
 
 Use this to setup the terminal:
 
-`
 <!doctype html>
   <html>
     <head>
@@ -21,11 +20,9 @@ Use this to setup the terminal:
     <body>
       <div id="terminal"></div>
       <script>
-        var jangs_write = write();
-        var jOPFILE = open();
-        var jterm = new Terminal();
-        jterm.jOPFILE(document.getElementById('terminal'));
-        jterm.jangs_write('JangSTerm version 1.0.00 is now activated!')
+        var term = new Terminal();
+        term.open(document.getElementById('terminal'));
+        term.write('JangSTerm 1.0.00 Is now activated!')
       </script>
     </body>
   </html>
