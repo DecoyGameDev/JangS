@@ -1,0 +1,11 @@
+{
+    "name": "jangs",
+    "version": "1.0.00",
+    "private": false,
+    "scripts": {
+      "start": "node jangs"
+    },
+    "dependencies": {
+      "xterm": "4.18.0"
+    }
+  }
