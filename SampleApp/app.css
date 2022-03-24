@@ -1,0 +1,23 @@
+#editor-container {
+    height: 375px;
+  }
+  
+body{
+    background-color: darkslategrey;
+}
+
+button{
+    background-color: blue;
+    color: red;
+    size: 30px;
+}
+
+h1{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
