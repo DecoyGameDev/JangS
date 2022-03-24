@@ -1,0 +1,12 @@
+{
+    "name": "jangsanim",
+    "version": "1.0.00",
+    "private": false,
+    "scripts": {
+      "start": "npm start"
+    },
+    "dependencies": {
+      "xterm": "4.18.0",
+      "animejs": "3.2.1"
+    }
+  }
