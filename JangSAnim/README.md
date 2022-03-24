@@ -32,3 +32,5 @@ JangANIM({
 });
 
 ```
+
+All animations use this keyframing type animation, kind of like what you see in CSS but smoother and more repsonsive.
