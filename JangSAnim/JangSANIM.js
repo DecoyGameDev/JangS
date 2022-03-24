@@ -897,7 +897,7 @@ const defaultInstanceSettings = {
   
   // Public Instance
   
-  function anime(params = {}) {
+  function JangANIM(params = {}) {
   
     let startTime = 0, lastTime = 0, now = 0;
     let children, childrenLength = 0;
