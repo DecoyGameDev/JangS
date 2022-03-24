@@ -23,7 +23,7 @@ const defaultInstanceSettings = {
     round: 0
   }
   
-  const validTransforms = ['translateX', 'translateY', 'translateZ', 'rotate', 'rotateX', 'rotateY', 'rotateZ', 'scale', 'scaleX', 'scaleY', 'scaleZ', 'skew', 'skewX', 'skewY', 'perspective', 'matrix', 'matrix3d'];
+  const validTransforms = ['JtranslateX', 'JtranslateY', 'JtranslateZ', 'Jrotate', 'JrotateX', 'JrotateY', 'JrotateZ', 'scale', 'scaleX', 'scaleY', 'scaleZ', 'skew', 'skewX', 'skewY', 'perspective', 'matrix', 'matrix3d'];
   
   // Caching
   
