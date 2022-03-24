@@ -6,6 +6,7 @@ Very lightweight and easy to use.
 
 The default app already has JangSTerm setup...
 If you do not use the default app, you can copy JangSTerm.js and refrence it in your html file.
+You can also refrence in your app, JangSTerm/term.js, and JangSTerm/term.css to mount the files.
 
 # Setting up a terminal
 
