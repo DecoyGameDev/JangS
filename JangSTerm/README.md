@@ -6,7 +6,7 @@ Very lightweight and easy to use.
 
 The default app already has JangSTerm setup...
 If you do not use the default app, you can copy JangSTerm.js and refrence it in your html file.
-You can also refrence in your app, JangSTerm/term.js, and JangSTerm/term.css to mount the files.
+You can also refrence in your app, JangSTerm/term.js, and JangSTerm/term.css to mount the files needed for the terminal to run.
 
 # Setting up a terminal
 
@@ -15,8 +15,8 @@ Use this to setup the terminal:
 <!doctype html>
   <html>
     <head>
-      <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
-      <script src="node_modules/xterm/lib/xterm.js"></script>
+      <link rel="stylesheet" href="JangSTerm/term.css" />
+      <script src="JangSTerm/term.js"></script>
     </head>
     <body>
       <div id="terminal"></div>
