@@ -1,10 +1,49 @@
+<script>
+    var quill = new Quill('.editor-container', {
+    modules: {
+      toolbar: [
+        [{ header: [1, 2, false] }],
+        ['bold', 'italic', 'underline'],
+        ['image', 'code-block']
+      ]
+    },
+    placeholder: 'Type here...',
+    theme: 'bubble'  // or 'bubble'
+  });
+    </script>
+
+    <style>
+        .editor-container {
+    height: 375px;
+  }
+  
+body{
+    background-color: darkslategrey;
+}
+
+button{
+    background-color: blue;
+    color: red;
+    size: 30px;
+}
+
+h1{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    </style>
+
 <a href="console.html"><button>I'm a developer!</button></a>
 
 <h1>You created a new JangSApp! Congrats!</h1>
 
 <h1>My JangS Document Editor:</h1>
 
-<script src="app.js"></script>
-<style src="app.css"></style>
 <div id="editor-container">
 </div>
